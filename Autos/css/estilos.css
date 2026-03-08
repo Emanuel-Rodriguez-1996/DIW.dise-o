@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-weight: 300 !important;
+}
+h1{
+    font-style: italic;
+}
+header{
+    background-color: aqua;
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    gap: 1rem
+}
+
+nav ul li {
+    list-style-type: none;
+    flex: 1
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+.fondo{
+    background-image: url(/imagenes/Fondo.webp);
+    background-size: cover;
+    height: 80vh;
+}
+.borde{
+    margin: 5rem auto;
+    border-top: 20px double rgb(147, 212, 230);
+    border-bottom: 20px double rgb(249, 113, 168);
+}
